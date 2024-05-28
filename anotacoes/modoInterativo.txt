@@ -1,0 +1,8 @@
+O MODO INTERATIVO
+
+o interpretador python pode executar em modo que possibilite o desenvolvedor a escrever código, e ver o resultado na hora.
+
+
+INICIANDO O MODO INTERATIVO
+
+existem duas formas de iniciar o modo interativo, chamando apenas o interpretador (python) ou executando o script com a flag -i (pyhon -i app.py)
