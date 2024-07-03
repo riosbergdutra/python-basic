@@ -1,0 +1,49 @@
+As estruturas de repetição permitem que você execute um bloco de código várias vezes. Em Python, temos for e while.
+
+Estrutura de Repetição for
+O laço for é utilizado para iterar sobre uma sequência (como uma lista, tupla, dicionário, conjunto ou string).
+
+# Exemplo com uma lista
+frutas = ["maçã", "banana", "laranja"]
+
+for fruta in frutas:
+    print(fruta)
+Explicação:
+
+for fruta in frutas:: para cada elemento na lista frutas, a variável fruta será atribuída a esse elemento e o bloco de código dentro do for será executado.
+
+Estrutura de Repetição while
+O laço while continua executando o bloco de código enquanto a condição for verdadeira.
+
+
+contador = 0
+
+while contador < 5:
+    print("Contador é:", contador)
+    contador += 1  # Incrementa o contador em 1
+Explicação:
+
+while contador < 5:: enquanto a condição contador < 5 for verdadeira, o bloco de código será executado.
+contador += 1: incrementa o valor de contador em 1 a cada iteração.
+Combinação de Condicionais e Repetição
+Você pode combinar estruturas condicionais e de repetição para criar lógicas mais complexas.
+
+
+numeros = [1, 2, 3, 4, 5]
+
+for numero in numeros:
+    if numero % 2 == 0:
+        print(f"{numero} é par")
+    else:
+        print(f"{numero} é ímpar")
+Explicação:
+
+O laço for percorre cada número na lista numeros.
+O if verifica se o número é par (numero % 2 == 0).
+Se for par, imprime que o número é par; caso contrário, imprime que é ímpar.
+
+vale lembrar do range que serve mt bem com for que normalmente tem a sintaxe assim
+
+ for numero in range(0, 51, 5):
+    print(numero, end="")
+    range(começo, parada, casas puladas)
