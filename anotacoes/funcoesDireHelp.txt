@@ -1,9 +1,0 @@
-DIR
-sem argumentos, retorna a lista de nomes no escopo local atual. com um argumento, retorna uma lista de atributos válidos para o objeto. Exemplo:
-dir()
-dir(100)
-
-HELP
-invoca o sistema de ajuda integrado, é possivel fazer buscas em modo interativo ou informar por pâmetro qual o nome do módulo, função, classe, método ou variável. Exemplo:
-help()
-help(100)
